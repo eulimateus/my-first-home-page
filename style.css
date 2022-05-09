@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(10, 8, 5);
+  font-family: "Libre Franklin", sans-serif;
+}
+header {
+  border-bottom: 10% solid red;
+}
+ul {
+  font-family: "Libre Franklin", sans-serif;
+  font-style: unset;
+  font-style: oblique;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(./background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  position: absolute;
+  left: 280px; /* posiciona a 280px para a esquerda */
+  top: 100px; /* posiciona a 100px para cima */
+  border-bottom: 4px solid rgb(92, 49, 49);
+}
+header ul li {
+  padding: 12%;
+}
+
+header ul li a:hover {
+  color: rgb(141, 62, 38);
+  text-decoration: underline;
+}
+header ul li a {
+  transition: 600ms;
+}
+.container {
+  text-align: center;
+}
+#imgpos {
+  position: absolute;
+  right: 40px; /* posiciona a 90px para a direita */
+  bottom: 20px; /* posiciona a 70px para baixo */
+}
+#imglogo {
+  position: absolute;
+  left: 0; /* posiciona a 90px para a esquerda */
+  top: 0; /* posiciona a 70px para cima */
+}
+.container .name h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 60px;
+  padding-top: 18%;
+}
+
+.container .name h5 {
+  font-family: "Quando", serif;
+  font-size: 20px;
+  padding: 1%;
+}
+#about p {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1%;
+  font-style: italic;
+}
+.form {
+  width: 40;
+  position: absolute;
+  right: 8%; /* posiciona a 90px para a direita */
+  top: 20%; /* posiciona a 70px para baixo */
+}
+
+.form input {
+  width: 65%;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.form button {
+  width: 25%;
+  padding: 5px 5px;
+  border: none;
+  background-color: rgb(207, 147, 36);
+  cursor: pointer;
+  transition: 400ms;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -5px;
+}
+.form button:hover {
+  background-color: rgb(241, 90, 30);
+  color: antiquewhite;
+}
+.finale p {
+  font-style: italic;
+  padding-top: 5px;
+  color: rgb(209, 207, 203);
+}
+.finale {
+  margin: 0% auto;
+  border: 3px solid rgb(100, 99, 51);
+  width: 20%;
+  padding-bottom: 10px;
+}
+.finale input {
+  background-color: rgb(199, 194, 194);
+  padding: 2px 2px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+}
+.finale button {
+  cursor: pointer;
+  padding: 2px 2px;
+  border: none;
+  background-color: rgb(192, 135, 29);
+  transition: 400ms;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -5px;
+}
+.finale button:hover {
+  background-color: rgb(241, 90, 30);
+  color: antiquewhite;
+}
+
+@media only screen and (max-width: 480px) {
+}
